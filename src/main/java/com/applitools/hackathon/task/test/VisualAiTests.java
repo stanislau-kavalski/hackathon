@@ -1,15 +1,11 @@
 package com.applitools.hackathon.task.test;
 
-import com.applitools.eyes.EyesRunner;
 import com.applitools.eyes.MatchLevel;
 import com.applitools.eyes.RectangleSize;
-import com.applitools.eyes.selenium.ClassicRunner;
-import com.applitools.eyes.selenium.Eyes;
 import com.applitools.hackathon.task.driver.DriverProvider;
 import com.applitools.hackathon.task.page.MainPage;
 import com.applitools.hackathon.task.utils.PropertiesProvider;
 
-import org.junit.Before;
 import org.junit.Test;
 
 /**

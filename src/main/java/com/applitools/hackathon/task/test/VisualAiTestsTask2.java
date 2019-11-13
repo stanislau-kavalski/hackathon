@@ -1,16 +1,10 @@
 package com.applitools.hackathon.task.test;
 
-import com.applitools.eyes.BatchInfo;
-import com.applitools.eyes.EyesRunner;
 import com.applitools.eyes.RectangleSize;
-import com.applitools.eyes.selenium.ClassicRunner;
-import com.applitools.eyes.selenium.Eyes;
 import com.applitools.hackathon.task.driver.DriverProvider;
 import com.applitools.hackathon.task.utils.PropertiesProvider;
 
 import org.apache.commons.lang3.StringUtils;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -18,7 +12,6 @@ import org.junit.runners.Parameterized.Parameters;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.UUID;
 
 /**
  * Visual AI test task 2.

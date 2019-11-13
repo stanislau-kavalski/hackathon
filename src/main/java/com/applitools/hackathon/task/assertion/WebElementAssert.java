@@ -5,13 +5,9 @@ import static com.applitools.hackathon.task.assertion.SoftAssert.softly;
 import com.applitools.hackathon.task.utils.FileUtil;
 
 import org.assertj.core.api.AbstractAssert;
-import org.assertj.core.api.Assertions;
-import org.assertj.core.api.SoftAssertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 
-import java.util.List;
 import java.util.function.Function;
 
 /**
@@ -80,10 +76,5 @@ public class WebElementAssert extends AbstractAssert<WebElementAssert, WebElemen
         softly().assertThat(FileUtil.isGifAnimated(img.getAttribute("src"))).isTrue();
         return this;
     }
-
-    public static void assertAll() {
-        softly().assertAll();
-    }
-
 
 }

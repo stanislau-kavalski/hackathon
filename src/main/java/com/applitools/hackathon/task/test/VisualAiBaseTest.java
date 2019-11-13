@@ -9,7 +9,6 @@ import com.applitools.hackathon.task.driver.DriverProvider;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 
 /**
  * Visual AI base test.
@@ -36,7 +35,7 @@ public abstract class VisualAiBaseTest extends CommonTest {
         runner = new ClassicRunner();
         eyes = new Eyes(runner);
         eyes.setBatch(batch);
-        eyes.setApiKey("UeglShpdC5egiP9mtFoGkMojmFBLBv5ssmlzt7WrXU0110");
+        eyes.setApiKey(System.getProperty("api.key"));
     }
 
     @After

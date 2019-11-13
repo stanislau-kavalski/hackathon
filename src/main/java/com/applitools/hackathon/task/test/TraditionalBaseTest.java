@@ -26,7 +26,7 @@ public abstract class TraditionalBaseTest extends CommonTest{
 
     @After
     public void afterTest() {
-        WebElementAssert.assertAll();
+        SoftAssert.softly().assertAll();
     }
 
     @AfterClass
